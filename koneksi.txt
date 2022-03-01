@@ -1,0 +1,15 @@
+<?php
+
+$host      ="localhost";
+$db_user   ="u5350289_zis";
+$db_password ="codevintek2020";
+$db_name     ="u5350289_zis";
+
+$koneksi = mysqli_connect("localhost","u5350289_zis","codevintek2020","u5350289_zis");
+
+
+if (mysqli_connect_errno()){
+	echo "Koneksi database gagal : " . mysqli_connect_error();
+}
+
+ ?>
